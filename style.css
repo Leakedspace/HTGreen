@@ -1,0 +1,145 @@
+body {
+  font-family: "Lora", serif;
+  max-width: 50vw;
+  margin: auto;
+  background-image: url(/images/bg800bulbs.jpg);
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  background-color: white;
+}
+
+.logo {
+  width: 5%;
+}
+
+nav {
+  list-style: none;
+  background-color: white;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.banner img {
+  width: 100%;
+}
+
+main {
+  clear: both;
+  padding: 1rem;
+  background-color: white;
+}
+
+main p {
+  padding: 1rem;
+}
+
+main h2 {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+h2 {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1em;
+  padding-top: 1rem;
+}
+
+.power {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: white;
+}
+
+article {
+  width: 100%;
+  padding: 1rem;
+  text-align: justify;
+}
+
+article img {
+  float: right;
+  padding: 2rem 2rem 2rem 3rem;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  clear: both;
+  width: 100%;
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
+  display: block;
+}
+
+.button {
+  display: inline-block;
+  margin: 0 30rem;
+  padding: 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: rgb(231, 229, 229);
+  border-color: gray;
+  border-style: solid;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+.test {
+  padding: 1rem;
+  width: 100%;
+  background-color: white;
+}
+
+.test-cards img {
+  float: left;
+  padding: 2rem 2rem 2rem 3rem;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.test-cards {
+
+  background-color: #ddf5f5;
+  border-left-style: solid;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-width: 1rem;
+  border-color: forestgreen;
+  margin-bottom: 1rem;
+}
+
+.test-cards p {
+  padding: 8rem;
+}
+
+footer {
+  background-color: #c88d63;
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+}
